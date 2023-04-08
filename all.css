@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
+header{
+    font-family: 'Titilium Web';
+   
+    width:280px;
+    
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
+    background:white;
+}
+header h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    text-transform: lowercase;
+    margin-left:20px;
+}
+footer{
+    text-align: center;
+    width:100%;
+    background: #E85F5C;
+    color:#FFF;
+    height:80px;
+    padding-top:20px;
+    margin-top:50px;
+}
+footer p{
+    margin:10px;
+}

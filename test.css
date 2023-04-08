@@ -1,0 +1,98 @@
+
+.content{
+  margin-top:20px;
+}
+#question-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        border-radius: 10px;
+        height:400px;
+}
+#question-text{
+    font-family: 'Titilium Web';
+    font-size: 18px;
+    width:500px;
+    font-weight: bold;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
+    text-align: center;
+}
+.options{
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.left, .right{
+    width:300px;
+    display: inline-block;
+    margin:20px;
+}
+.option{
+    font-size: 16px;
+    color:#333;
+    display: block;
+    width:290px;
+    border:2px solid #E85F5C;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    font-family: Roboto;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.option:hover, .selected{
+    color:#FFF;
+    background: #E85F5C;
+}
+.pr{
+    width:600px;
+    display: block;
+    height:50px;
+    margin-left:auto;
+    margin-right: auto;
+    padding:0;
+    margin-top:50px;
+}
+#progress{
+    width:550px;
+    display: inline-block;
+    text-align: center;
+    font-size:24px;
+    height:30px;
+    vertical-align:middle;
+    margin-top:10px;
+}
+#next, #prev{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 15px;
+    transition: background-color 0.2s;
+    margin-top:10px;
+}
+#next:hover, #prev:hover{
+    background:#EEE;
+}
+.progress-outer{
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
+    height:8px;
+    background:#FFFFFE;
+    border-radius: 5px;
+    padding:2px;
+    box-shadow: #BBB 1px 1px 20px inset;
+}
+.progress-inner{
+    width:40%;
+    height:8px;
+    background: #E85F5C;
+    border-radius: 4px;
+    transition: width 0.4s;
+}
