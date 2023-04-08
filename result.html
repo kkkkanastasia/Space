@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Результат</title>
+  <link rel="stylesheet" href="styles/all.css">
+  <link rel="stylesheet" href="styles/result.css">
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900">
+  <script src="scripts/result.js"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1> la&nbsp;región</h1>
+      <p>Викторина по географии</p>
+    </div>
+  </header>
+  <div class="content">
+    <img id="reaction-image" src="images/9893677.png">
+    <p id="result">9/10 правильных ответов</p>
+    <p id="result-description">Кажется, пора отправляться на другую планету. Этот мир Вам уже давно понятен!</p>
+    <div class="questions">
+      <div onclick="loadDescription(0)"class="correct question" id="q0">1</div>
+      <div onclick="loadDescription(1)"class="correct question" id="q1">2</div>
+      <div onclick="loadDescription(2)"class="incorrect question" id="q2">3</div>
+      <div onclick="loadDescription(3)"class="incorrect question" id="q3">4</div>
+      <div onclick="loadDescription(4)"class="incorrect question" id="q4">5</div>
+      <div onclick="loadDescription(5)"class="correct question" id="q5">6</div>
+      <div onclick="loadDescription(6)"class="incorrect question" id="q6">7</div>
+      <div onclick="loadDescription(7)"class="incorrect question" id="q7">8</div>
+      <div onclick="loadDescription(8)"class="correct question" id="q8">9</div>
+      <div onclick="loadDescription(9)" class="correct question" id="q9">10</div>
+    </div>
+    
+  </div>
+  <div class="answer">
+    <div class="question" id="quest">В каком городе находится знаменитая «падающая башня»?</div>
+    <div class="correct-answer">Ответ: <p id="corr">Лондон</p> </div>
+    <div class="your-answer">Ваш ответ: <p id="yours">Париж</p> </div>
+  </div>
+  <a id="again" href="index.html">Пройти еще раз!</a>
+  <footer>
+    <p>Алейникова Анна, Мосичкин Дмитрий, Турзанова Анастасия</p>
+    <p>группа 8027, ГУАП, 2023</p>
+  </footer>
+</body>
+
+</html>

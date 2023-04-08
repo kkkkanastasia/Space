@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Тест</title>
+  <link rel="stylesheet" href="styles/test.css">
+  <link rel="stylesheet" href="styles/all.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900">
+  <script src="scripts/test.js"></script>
+  <meta name="theme-color" content="#478ac9">
+</head>
+
+<body onkeydown="if(event.keyCode == 39){nextQuestion()}else if(event.keyCode == 37){previousQuestion()}">
+  <header>
+    <div>
+      <h1>la&nbsp;región</h1>
+      <p>Викторина по географии</p>
+    </div>
+  </header>
+  <div class="pr">
+    <img id="prev" onclick="previousQuestion()" src="imgs/back.svg">
+    <p id="progress" class="u-align-center u-text u-text-2">4/10</p>
+    <img id="next" onclick="nextQuestion()" src="imgs/next.svg">
+    <div class="progress-outer">
+      <div id="progress-bar" class="progress-inner"></div>
+    </div>
+  </div>
+  <div class="content">
+    <img id="question-image" src="images/image1.png">
+    <p id="question-text" class="u-align-center u-text u-text-1">Из какой площади Парижа выходит 9 улиц-лучей?</p>
+    <div class="options">
+      <div class="left">
+        <a class="option" id="option1" onclick="optionClicked(0)">Площадь Согласия</a>
+        <a class="option" id="option2" onclick="optionClicked(1)">Площадь Свободы</a>
+      </div>
+      <div class="right">
+        <a class="option" id="option3" onclick="optionClicked(2)">Площадь Конституции</a>
+        <a class="option" id="option4" onclick="optionClicked(3)">Площадь Шарля де Голля</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <p>Алейникова Анна, Мосичкин Дмитрий, Турзанова
+      Анастасия</p>
+    <p>группа 8027, ГУАП, 2023</p>
+  </footer>
+
+</body>
+
+</html>
